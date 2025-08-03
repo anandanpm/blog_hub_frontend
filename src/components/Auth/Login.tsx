@@ -7,7 +7,7 @@ import Loading from '../Common/Loading';
 
 const Login: React.FC = () => {
   const [formData, setFormData] = useState({
-    email: '',
+    email: ,
     password: '',
   });
   const [showPassword, setShowPassword] = useState(false);
