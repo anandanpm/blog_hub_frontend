@@ -3,7 +3,7 @@ import { RegisterData, LoginData, CreateBlogData, UpdateBlogData } from '../type
 import { getCookie } from '../utils/cookies';
 
 // Handle environment variable properly
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL ;
 
 const api = axios.create({
   baseURL: API_BASE_URL,
